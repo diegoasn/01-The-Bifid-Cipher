@@ -46,7 +46,7 @@ def bifid(lines):
 
 lines = list()
 for line in fileinput.input():
-	line = line.replace('\n','')
-	line = line.replace(' ','')
+	line = line.replace('\n', '')
+	line = line.replace(' ', '')
 	lines.append(line)
 print(bifid(lines))
